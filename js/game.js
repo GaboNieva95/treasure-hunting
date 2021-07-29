@@ -1,11 +1,11 @@
-const WHIDT = 400;
+const WIDTH = 400;
 
-const HEIGH = 400;
+const HEIGHT = 400;
 
-let target = {
+const target = {
 
-  x: getRandomNumber(WHIDT),
-  y: getRandomNumber(HEIGH)
+  x: getRandomNumber(WIDTH),
+  y: getRandomNumber(HEIGHT)
 
 };
 
@@ -24,7 +24,7 @@ $map.addEventListener('click', function (e) {
 
   if (distance < 20) {
     alert(`Eres un ganador!!! encontraste el tesoro en ${clicks} clicks!!!`);
-    location.reload();
+    location.reload()
   }
 
 })
