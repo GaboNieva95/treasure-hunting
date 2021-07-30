@@ -1,5 +1,4 @@
-const getRandomNumber = size => 
-  Math.floor(Math.random() * size);
+const getRandomNumber = size => Math.floor(Math.random() * size);
 
 
 const getDistance = (e, target) => {
